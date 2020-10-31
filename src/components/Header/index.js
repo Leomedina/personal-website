@@ -1,10 +1,11 @@
 import React from 'react';
+import './style.css';
 
 function Header() {
+  const linkedIn = "https://www.linkedin.com/in/medinaleonardo/";
   return (
     <header>
-      <h1>Hi! I'm Leo.</h1>
-      <h2>I'm a software engineer and I like <span>Semantic HTML</span>.</h2>
+      <h1>I'm Leo Medina, a software engineer building things at <a href={linkedIn} target="_blank"><code>NULL</code></a>.</h1>
     </header>
   );
 };
