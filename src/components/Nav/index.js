@@ -5,7 +5,8 @@ function Nav() {
 
   return (
     <nav>
-      <h1 className="nav-main">Leonardo Medina</h1>
+      <h1 >Leonardo Medina</h1>
+      <h3 >Full-Stack Software Developer</h3>
     </nav>
   );
 };

@@ -3,7 +3,22 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3rem;
   font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 a {
@@ -11,31 +26,36 @@ a {
   text-decoration: none;
 }
 
-
 /* Main Layout */
 main {
+  background-color: #fefaf6;
   display: grid;
-  padding: 0 9rem;
+  row-gap: 2rem;
   grid-template-rows: 0.2fr 1fr 1fr;
-  grid-template-columns: 3fr 3fr;
+  grid-template-columns: 3fr 3fr 1fr;
   grid-template-areas:
-    "nav nav"
-    "header header"
-    "projects projects";
+    "nav nav nav"
+    "header header header"
+    "projects projects projects";
 }
 
 nav {
+  border-bottom: 1px solid black;
+  padding: 1rem 3rem;
   align-self: center;
   grid-area: nav;
 }
 
 header {
   grid-area: header;
+  padding: 3rem;
 }
 
 section.projects {
   align-self: center;
   grid-area: projects;
+  border: 2px solid white;
+  padding: 0 1rem;
 }
 
 @media only screen and (max-width: 600px) {
