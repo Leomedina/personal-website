@@ -7,7 +7,6 @@ function Header() {
   const linkedIn = "https://www.linkedin.com/in/medinaleonardo/";
   return (
     <header>
-      <h2>{bio}</h2>
     </header>
   );
 };
