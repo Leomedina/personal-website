@@ -1,11 +1,14 @@
 import React from 'react';
+import COPY from '../../assets/copy';
 import './style.css';
 
 function Header() {
+  const { header, subheader } = COPY.home;
   const linkedIn = "https://www.linkedin.com/in/medinaleonardo/";
   return (
     <header>
-      <h1>I'm Leo Medina, a software engineer building things at <a href={linkedIn} target="_blank"><code>NULL</code></a>.</h1>
+      <h2>{header}</h2>
+      <p>{subheader}</p>
     </header>
   );
 };

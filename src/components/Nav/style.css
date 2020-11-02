@@ -1,0 +1,9 @@
+nav {
+  background-color: white;
+  display: block;
+  padding: 1.5rem;
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: center;
+  top: 0;
+}
