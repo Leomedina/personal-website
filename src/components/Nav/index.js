@@ -7,9 +7,9 @@ function Nav() {
     <nav>
       <span className="connect">CONNECT</span>
       <ul>
-        <li>Project 1</li>
-        <li>Project 2</li>
-        <li>Project 3</li>
+        <li>Open-Source Contributions</li>
+        <li>Considered Collectively</li>
+        <li>Journey-Pal</li>
       </ul> 
     </nav>
   );
