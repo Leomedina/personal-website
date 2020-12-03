@@ -1,10 +1,13 @@
 import React from 'react';
+import ProjectInfo from './ProjectInfo';
+import ProjectHero from './ProjectHero';
 import './style.css';
-import ProjectImage from './Project-Image';
 
 function Project() {
   return (
-    <article>
+    <article className="project">
+      <ProjectInfo />
+      <ProjectHero />
     </article>
   );
 };

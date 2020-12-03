@@ -18,11 +18,13 @@ a {
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr .5fr 1fr 0.3fr;
+  grid-template-rows: 1fr 0.5fr 2fr 2fr 2fr 0.3fr;
   grid-template-areas:
     "hero hero nav"
     "line-break line-break line-break"
     "project project project"
+    "project-1 project-1 project-1"
+    "project-2 project-2 project-2"
     "footer footer footer";
 }
 
@@ -40,8 +42,7 @@ nav {
   grid-area: nav;
 }
 
-section {
-  align-self: center;
+.project {
   grid-area: project;
 }
 

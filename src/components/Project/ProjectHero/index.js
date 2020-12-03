@@ -2,10 +2,10 @@ import React from 'react';
 import CCThumb from '../../../assets/images/CC-Thumb.png';
 import './style.css'
 
-function ProjectImage() {
+function ProjectHero() {
   return (
-    <img src={CCThumb} alt="Considered Collectively" />
+    <div></div>
   );
 };
 
-export default ProjectImage;
+export default ProjectHero;
