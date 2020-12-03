@@ -1,12 +1,12 @@
 import React from 'react';
-import COPY from '../../assets/copy';
 import './style.css';
 
 function Header() {
-  const { bio } = COPY.home;
-  const linkedIn = "https://www.linkedin.com/in/medinaleonardo/";
   return (
     <header>
+      <h1>Hi!</h1>
+      <h1>I'm Leo Medina.</h1>
+      <h1>Software Engineer.</h1>
     </header>
   );
 };

@@ -5,8 +5,12 @@ function Nav() {
 
   return (
     <nav>
-      <div className="line"></div>
-      <span className="logo">LEO MEDINA</span>
+      <span className="connect">CONNECT</span>
+      <ul>
+        <li>Project 1</li>
+        <li>Project 2</li>
+        <li>Project 3</li>
+      </ul> 
     </nav>
   );
 };
