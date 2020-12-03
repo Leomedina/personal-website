@@ -9,8 +9,6 @@ body {
   margin: 7rem 5.5rem 0 5.5rem;
 }
 
-
-
 a {
   color: inherit;
   text-decoration: none;
@@ -19,19 +17,23 @@ a {
 /* Main Layout */
 main {
   display: grid;
-  height: 100vh;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 1fr 0.3fr;
+  grid-template-rows: 1fr .5fr 1fr 0.3fr;
   grid-template-areas:
     "hero hero nav"
+    "line-break line-break line-break"
     "project project project"
     "footer footer footer";
 }
 
 header {
-  padding-bottom: 6rem;
   align-self: flex-start;
   grid-area: hero;
+}
+
+.linebreak {
+  align-self: center;
+  grid-area: line-break;
 }
 
 nav {
