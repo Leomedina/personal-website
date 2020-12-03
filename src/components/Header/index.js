@@ -6,7 +6,7 @@ function Header() {
     <header>
       <h1>Hi!</h1>
       <h1>I'm Leo Medina.</h1>
-      <h1>Software Engineer.</h1>
+      <h1>Full-Stack Engineer.</h1>
     </header>
   );
 };

@@ -6,16 +6,10 @@
 }
 
 body {
-  margin: 6rem 4.5rem 0 4.5rem;
+  margin: 7rem 5.5rem 0 5.5rem;
 }
 
-h1 {
-  font-family: "PT Mono", monospace;
-  font-size: 4.5rem;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 96%;
-}
+
 
 a {
   color: inherit;
@@ -25,6 +19,7 @@ a {
 /* Main Layout */
 main {
   display: grid;
+  height: 100vh;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr 0.3fr;
   grid-template-areas:
@@ -40,7 +35,6 @@ header {
 }
 
 nav {
-  align-self: center;
   grid-area: nav;
 }
 
