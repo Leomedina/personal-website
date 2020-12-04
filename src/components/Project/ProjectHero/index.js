@@ -6,7 +6,7 @@ import './style.css';
 function ProjectHero() {
   return (
     <div className="p-hero">
-      <img src={stock} alt="Stock Image of a Desk" />
+      <img src={stock} alt="project" />
       <div className="p-meta">
         <ul>
           <li>Type: Full-Stack Project.</li>

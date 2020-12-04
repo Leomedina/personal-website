@@ -15,15 +15,15 @@ a {
 }
 
 ul {
-list-style: none;
+  list-style: none;
 }
 
 /* Main Layout */
 main {
   display: grid;
-  row-gap: 5rem;
+  row-gap: 4.5rem;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 0.1fr 1.5fr 1.5fr 1.5fr 0.3fr;
+  grid-template-rows: 1fr 0.1fr repeat(3, 1.5fr) 0.2fr;
   grid-template-areas:
     "hero hero nav"
     "line-break line-break line-break"
@@ -60,6 +60,5 @@ nav {
 }
 
 footer {
-  align-self: center;
   grid-area: footer;
 }

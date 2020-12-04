@@ -1,4 +1,6 @@
 .linebreak {
+  margin: .5rem 0rem;
   width: 100%;
   border: 0.75px solid black;
 }
+
