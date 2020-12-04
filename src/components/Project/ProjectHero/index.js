@@ -1,6 +1,5 @@
 import React from 'react';
-import CCThumb from '../../../assets/images/CC-Thumb.png';
-import './style.css'
+import './style.css';
 
 function ProjectHero() {
   return (
