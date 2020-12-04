@@ -14,18 +14,22 @@ a {
   text-decoration: none;
 }
 
+ul {
+list-style: none;
+}
+
 /* Main Layout */
 main {
   display: grid;
-  row-gap:5rem;
+  row-gap: 5rem;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr .1fr 1.5fr 1.75fr 1.75fr 0.3fr;
+  grid-template-rows: 1fr 0.1fr 1.5fr 1.5fr 1.5fr 0.3fr;
   grid-template-areas:
     "hero hero nav"
     "line-break line-break line-break"
     "project project project"
     "project-1 project-1 project-1"
-    "project-2 project-2 project-2" 
+    "project-2 project-2 project-2"
     "footer footer footer";
 }
 

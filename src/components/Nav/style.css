@@ -6,11 +6,7 @@ nav {
   justify-content: space-between;
 }
 
-nav ul {
-  list-style-type: none;
-}
-
-ul li {
+nav ul li {
   padding: .6rem 0;
   background-color: white;
   
