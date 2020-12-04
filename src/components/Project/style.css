@@ -1,5 +1,6 @@
 article {
   display: flex;
-  flex-flow: row wrap;
-  align-items: flex-end;
+  flex-direction: column;
+  background-color: aquamarine;
+  color:green;
 }

@@ -46,6 +46,14 @@ nav {
   grid-area: project;
 }
 
+.project-1 {
+  grid-area: project-1;
+}
+
+.project-2 {
+  grid-area: project-2;
+}
+
 footer {
   align-self: center;
   grid-area: footer;

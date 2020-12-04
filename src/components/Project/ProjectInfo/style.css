@@ -3,10 +3,3 @@ h2 {
   font-weight: 400;
   font-size: 2.5rem;
 }
-
-.p-info {
-  display: flex;
-  flex-flow: column wrap;
-  align-content: center;
-  color: red;
-}

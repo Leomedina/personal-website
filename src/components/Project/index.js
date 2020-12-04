@@ -3,9 +3,9 @@ import ProjectInfo from './ProjectInfo';
 import ProjectHero from './ProjectHero';
 import './style.css';
 
-function Project() {
+function Project({project}) {
   return (
-    <article className="project">
+    <article className={project}>
       <ProjectInfo />
       <ProjectHero />
     </article>

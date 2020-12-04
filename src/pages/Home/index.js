@@ -11,7 +11,9 @@ function Home() {
       <Header />
       <LineBreak />
       <section className="projects">
-        <Project />
+        <Project project={"project"}/>
+        <Project project={"project-1"}/>
+        <Project project={"project-2"}/>
       </section>
     </main>
   );
