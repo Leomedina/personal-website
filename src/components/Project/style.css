@@ -1,6 +1,5 @@
 article {
   display: flex;
-  flex-direction: column wrap;
-  background-color: aquamarine;
+  flex-flow: row wrap;
 }
 
