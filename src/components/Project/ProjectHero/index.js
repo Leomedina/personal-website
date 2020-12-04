@@ -3,7 +3,10 @@ import './style.css';
 
 function ProjectHero() {
   return (
-    <div>dasfsdfsd</div>
+    <div className="p-hero">
+      <div>sdafbsdyukhfb</div>
+      <div>sdafbsdyukhfb</div>
+    </div>
   );
 };
 

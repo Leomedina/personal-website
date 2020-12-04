@@ -1,6 +1,6 @@
 article {
   display: flex;
-  flex-direction: column;
+  flex-direction: column wrap;
   background-color: aquamarine;
-  color:green;
 }
+

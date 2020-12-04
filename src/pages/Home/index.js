@@ -10,11 +10,9 @@ function Home() {
       <Nav />
       <Header />
       <LineBreak />
-      <section className="projects">
-        <Project project={"project"}/>
-        <Project project={"project-1"}/>
-        <Project project={"project-2"}/>
-      </section>
+      <Project project={"project"} />
+      <Project project={"project-1"} />
+      <Project project={"project-2"} />
     </main>
   );
 };
