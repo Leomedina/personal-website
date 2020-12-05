@@ -23,12 +23,21 @@
 }
 
 .p-next img {
-  padding-left: .5rem;
+  padding-left: 0.5rem;
   max-width: 13%;
   height: auto;
 }
 
-.p-next p {
+.blackandwhite {
+  filter: gray;
+  filter: grayscale(55%);
+}
+
+.blackandwhite:hover {
+  filter: grayscale(30%);
+}
+
+.p-next a {
   font-weight: 800;
   font-size: 0.7rem;
 }

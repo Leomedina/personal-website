@@ -1,19 +1,18 @@
 import React from 'react';
-import stock from '../../../assets/images/stock-1.png';
 import downArrow from '../../../assets/images/down-arrow.png';
 import './style.css';
 
-function ProjectHero() {
+function ProjectHero({ image, type, tech }) {
   return (
     <div className="p-hero">
-      <img src={stock} alt="project" />
+      <img src={image} className="blackandwhite" alt="project"/>
       <div className="p-meta">
         <ul>
-          <li>Type: Full-Stack Project.</li>
-          <li>Technologies: Python, Flask, PostgreSLQ.</li>
+          <li>{`Type: ${type}`}</li>
+          <li>{`Technologies: ${tech}`}</li>
         </ul>
         <div className="p-next">
-          <p>NEXT PROJECT</p>
+          <a href="">NEXT PROJECT</a>
           <img src={downArrow} alt="Next Project Button" />
         </div>
       </div>
