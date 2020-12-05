@@ -1,4 +1,13 @@
 footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: .8rem;
   width: 100%;
   border-top: 1px solid black;
+  padding-top: 1rem;
+}
+
+footer .f-connect {
+  font-weight: 800;
 }
