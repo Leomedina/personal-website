@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Leomedina/personal-website/static/css/main.8011ee91.chunk.css",
-    "main.js": "/Leomedina/personal-website/static/js/main.874bd05b.chunk.js",
-    "main.js.map": "/Leomedina/personal-website/static/js/main.874bd05b.chunk.js.map",
-    "runtime-main.js": "/Leomedina/personal-website/static/js/runtime-main.51ad921b.js",
-    "runtime-main.js.map": "/Leomedina/personal-website/static/js/runtime-main.51ad921b.js.map",
-    "static/js/2.925ffdb0.chunk.js": "/Leomedina/personal-website/static/js/2.925ffdb0.chunk.js",
-    "static/js/2.925ffdb0.chunk.js.map": "/Leomedina/personal-website/static/js/2.925ffdb0.chunk.js.map",
-    "static/js/3.ec38eb6c.chunk.js": "/Leomedina/personal-website/static/js/3.ec38eb6c.chunk.js",
-    "static/js/3.ec38eb6c.chunk.js.map": "/Leomedina/personal-website/static/js/3.ec38eb6c.chunk.js.map",
-    "index.html": "/Leomedina/personal-website/index.html",
-    "static/css/main.8011ee91.chunk.css.map": "/Leomedina/personal-website/static/css/main.8011ee91.chunk.css.map",
-    "static/js/2.925ffdb0.chunk.js.LICENSE.txt": "/Leomedina/personal-website/static/js/2.925ffdb0.chunk.js.LICENSE.txt",
-    "static/media/cc.55910a80.png": "/Leomedina/personal-website/static/media/cc.55910a80.png",
-    "static/media/stock-1.ba3c3b92.png": "/Leomedina/personal-website/static/media/stock-1.ba3c3b92.png"
+    "main.css": "/personal-website/static/css/main.8011ee91.chunk.css",
+    "main.js": "/personal-website/static/js/main.874bd05b.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.874bd05b.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.ec6e61d4.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.ec6e61d4.js.map",
+    "static/js/2.925ffdb0.chunk.js": "/personal-website/static/js/2.925ffdb0.chunk.js",
+    "static/js/2.925ffdb0.chunk.js.map": "/personal-website/static/js/2.925ffdb0.chunk.js.map",
+    "static/js/3.ec38eb6c.chunk.js": "/personal-website/static/js/3.ec38eb6c.chunk.js",
+    "static/js/3.ec38eb6c.chunk.js.map": "/personal-website/static/js/3.ec38eb6c.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "static/css/main.8011ee91.chunk.css.map": "/personal-website/static/css/main.8011ee91.chunk.css.map",
+    "static/js/2.925ffdb0.chunk.js.LICENSE.txt": "/personal-website/static/js/2.925ffdb0.chunk.js.LICENSE.txt",
+    "static/media/cc.55910a80.png": "/personal-website/static/media/cc.55910a80.png",
+    "static/media/stock-1.ba3c3b92.png": "/personal-website/static/media/stock-1.ba3c3b92.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.51ad921b.js",
+    "static/js/runtime-main.ec6e61d4.js",
     "static/js/2.925ffdb0.chunk.js",
     "static/css/main.8011ee91.chunk.css",
     "static/js/main.874bd05b.chunk.js"
