@@ -4,7 +4,7 @@ import ProjectHero from './ProjectHero';
 import './style.css';
 
 function Project({ project, projectInfo, nextProject }) {
-  const { title, description, image, github, live, type, tech } = projectInfo;
+  const { title, description, image, live, type, tech } = projectInfo;
   return (
     <article className={project} id={project}>
       <ProjectInfo

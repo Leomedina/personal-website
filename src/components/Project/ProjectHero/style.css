@@ -23,6 +23,7 @@
 }
 
 img {
+  padding: 2rem 0;
   max-width: 100%;
   height: auto;
 }
@@ -33,18 +34,22 @@ img {
   height: auto;
 }
 
-.blackandwhite {
+.filter {
   filter: gray;
   filter: grayscale(30%);
 }
 
 .p-next a {
   font-weight: 800;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 @media all and (min-width: 900px) {
   .p-meta {
     display: flex;
+  }
+
+  img {
+    padding: 0;
   }
 }

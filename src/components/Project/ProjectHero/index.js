@@ -5,7 +5,7 @@ import './style.css';
 function ProjectHero({ image, type, tech, nextProject }) {
   return (
     <div className="p-hero">
-      <img src={image} className="blackandwhite" alt="project" />
+      <img src={image} className="filter" alt="project" />
       <div className="p-meta">
         <ul>
           <li>{`Type: ${type}`}</li>

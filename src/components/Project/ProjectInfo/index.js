@@ -9,7 +9,10 @@ function ProjectInfo({ title, description, live }) {
       <p>{description}</p>
       <span
         className="p-view-link">
-        <a href={live} target="_blank" rel="noopener noreferrer"  >VIEW PROJECT</a></span>
+        <a
+          href={live}
+          target="_blank"
+          rel="noopener noreferrer"  >VIEW PROJECT</a></span>
     </div>
   );
 };

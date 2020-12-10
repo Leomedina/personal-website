@@ -2,12 +2,20 @@ footer {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  font-size: .8rem;
+  font-size: 0.7rem;
   width: 100%;
   border-top: 1px solid black;
   padding-top: 1rem;
 }
 
 footer .f-connect {
+  display: none;
+  font-size: 0.8rem;
   font-weight: 800;
+}
+
+@media all and (min-width: 900px) {
+  footer .f-connect {
+    display: block;
+  }
 }
