@@ -5,12 +5,17 @@ function Nav() {
 
   return (
     <nav>
-      <span className="connect">CONNECT</span>
       <ul>
-        <li>Open-Source Contributions</li>
-        <li>Considered Collectively</li>
-        <li>Journey-Pal</li>
-      </ul> 
+        <li><a
+          className="connect"
+          href="https://www.linkedin.com/in/medinaleonardo/"
+          target="_blank"
+          rel="noopener noreferrer"  >CONNECT</a>
+        </li>
+        <li><a className="link" href="#project-2"> Open-Source Contributions</a></li>
+        <li><a className="link" href="#project-1"> Considered Collectively</a></li>
+        <li><a className="link" href="#project"> Journey-Pal</a></li>
+      </ul>
     </nav>
   );
 };

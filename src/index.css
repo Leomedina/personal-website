@@ -64,8 +64,8 @@ footer {
 
 @media all and (min-width: 900px) {
   main {
-    row-gap: 4.5rem;
-    grid-template-rows: 1fr 0.1fr repeat(3, 1fr) 0.2fr;
+    row-gap: 5.5rem;
+    grid-template-rows: 0.8fr 0.1fr repeat(3, 1.3fr) 0.2fr;
     grid-template-areas:
       "hero hero nav"
       "line-break line-break line-break"
@@ -74,9 +74,11 @@ footer {
       "project-2 project-2 project-2"
       "footer footer footer";
   }
+
   body {
     margin: 7rem 5.5rem 0 5.5rem;
   }
+
   .linebreak {
     align-self: center;
     grid-area: line-break;

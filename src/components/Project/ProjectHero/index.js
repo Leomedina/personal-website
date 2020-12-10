@@ -8,8 +8,8 @@ function ProjectHero({ image, type, tech, nextProject }) {
       <img src={image} className="filter" alt="project" />
       <div className="p-meta">
         <ul>
-          <li>{`Type: ${type}`}</li>
-          <li>{`Technologies: ${tech}`}</li>
+          <li>{`${type}`}</li>
+          <li>{`${tech}`}</li>
         </ul>
         {nextProject ? <div className="p-next">
           <a href={`#${nextProject}`}>NEXT PROJECT

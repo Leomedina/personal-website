@@ -4,8 +4,11 @@ import './style.css';
 function Footer() {
   return (
     <footer>
-      <p>Made with ♥ by Leo Medina | All Rights Reserved  </p>
-      <p className="f-connect">CONNECT</p>
+      <p> All Rights Reserved. | Leonardo Medina © </p>
+      <p><a className="f-connect"
+        href="https://www.linkedin.com/in/medinaleonardo/"
+        target="_blank"
+        rel="noopener noreferrer" >CONNECT</a></p>
     </footer>
   );
 };
