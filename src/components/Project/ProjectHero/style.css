@@ -10,13 +10,13 @@
 }
 
 .p-meta {
-  display: flex;
+  display: none;
   flex-flow: row wrap;
   align-items: baseline;
   justify-content: space-between;
 }
 
-.p-next {
+.p-next a {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
@@ -41,4 +41,10 @@ img {
 .p-next a {
   font-weight: 800;
   font-size: 0.7rem;
+}
+
+@media all and (min-width: 900px) {
+  .p-meta {
+    display: flex;
+  }
 }

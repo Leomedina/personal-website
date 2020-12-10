@@ -13,14 +13,17 @@ function Home() {
       <Header />
       <LineBreak />
       <Project
-        project={"project"}
-        projectInfo={projectInfo} />
+        project="project"
+        projectInfo={projectInfo}
+        nextProject="project-1" />
       <Project
-        project={"project-1"}
-        projectInfo={project1Info} />
+        project="project-1"
+        projectInfo={project1Info}
+        nextProject='project-2' />
       <Project
-        project={"project-2"}
-        projectInfo={project2Info} />
+        project="project-2"
+        projectInfo={project2Info}
+        nextProject={false} />
       <Footer />
     </main>
   );

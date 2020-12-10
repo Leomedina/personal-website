@@ -1,12 +1,12 @@
 nav {
   font-size: 1.2rem;
-  display: none;
   flex-flow: column nowrap;
-  text-align: end;
+  text-align: start;
   justify-content: space-between;
 }
 
 nav ul li {
+  display: none;
   padding: 0.6rem 0;
   background-color: white;
 }
@@ -17,7 +17,10 @@ nav .connect {
 }
 
 @media all and (min-width: 900px) {
+  nav ul li {
+    display: block;
+  }
   nav {
-    display: flex;
+    text-align: end;
   }
 }

@@ -1,5 +1,12 @@
 .linebreak {
+  display: none;
   margin: 0.5rem 0rem;
   width: 100%;
   border-top: 1px solid black;
+}
+
+@media all and (min-width: 900px) {
+  .linebreak {
+    display: block;
+  }
 }
