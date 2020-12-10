@@ -24,7 +24,7 @@ export const project1Info = {
 
 export const project2Info = {
   title: "Open-Source Contributions",
-  description: "Npm packages and other open-source contributions.",
+  description: "Assortment of open-source contributions including a NodeJS Express npm package that helps you manage your postgreSQL database.",
   image: stock,
   github: "https://github.com/Leomedina/Considered_Collectively",
   live: "https://considered-collectively.herokuapp.com/",
