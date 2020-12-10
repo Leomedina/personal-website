@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-function LineBreak({linebreak}) {
+function LineBreak() {
   return (
-    <div className={linebreak}>
+    <div className="linebreak">
     </div>
   );
 };

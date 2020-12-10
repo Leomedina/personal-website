@@ -6,7 +6,7 @@
 }
 
 body {
-  margin: 7rem 5.5rem 0 5.5rem;
+  margin: 5rem 1rem 0 1rem;
 }
 
 a {
@@ -21,12 +21,11 @@ ul {
 /* Main Layout */
 main {
   display: grid;
-  row-gap: 4.5rem;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 0.1fr repeat(3, 1.5fr) 0.2fr;
+  row-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: .3fr repeat(3, 1.5fr) 0.2fr;
   grid-template-areas:
     "hero hero nav"
-    "line-break line-break line-break"
     "project project project"
     "project-1 project-1 project-1"
     "project-2 project-2 project-2"
@@ -36,11 +35,6 @@ main {
 header {
   align-self: flex-start;
   grid-area: hero;
-}
-
-.linebreak {
-  align-self: center;
-  grid-area: line-break;
 }
 
 nav {
@@ -61,4 +55,25 @@ nav {
 
 footer {
   grid-area: footer;
+}
+
+@media all and (min-width: 900px) {
+  main {
+    row-gap: 4.5rem;
+    grid-template-rows: 1fr 0.1fr repeat(3, 1.5fr) 0.2fr;
+    grid-template-areas:
+      "hero hero nav"
+      "line-break line-break line-break"
+      "project project project"
+      "project-1 project-1 project-1"
+      "project-2 project-2 project-2"
+      "footer footer footer";
+  }
+  body {
+    margin: 7rem 5.5rem 0 5.5rem;
+  }
+  .linebreak {
+    align-self: center;
+    grid-area: line-break;
+  }
 }

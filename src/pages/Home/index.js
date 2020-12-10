@@ -11,10 +11,16 @@ function Home() {
     <main>
       <Nav />
       <Header />
-      <LineBreak linebreak="linebreak" />
-      <Project project={"project"} projectInfo={projectInfo} />
-      <Project project={"project-1"} projectInfo={project1Info} />
-      <Project project={"project-2"} projectInfo={project2Info} />
+      <LineBreak />
+      <Project
+        project={"project"}
+        projectInfo={projectInfo} />
+      <Project
+        project={"project-1"}
+        projectInfo={project1Info} />
+      <Project
+        project={"project-2"}
+        projectInfo={project2Info} />
       <Footer />
     </main>
   );

@@ -1,18 +1,23 @@
 nav {
   font-size: 1.2rem;
-  display: flex;
+  display: none;
   flex-flow: column nowrap;
   text-align: end;
   justify-content: space-between;
 }
 
 nav ul li {
-  padding: .6rem 0;
+  padding: 0.6rem 0;
   background-color: white;
-  
 }
 
 nav .connect {
   font-weight: 800;
-  font-size: .8rem;
+  font-size: 0.8rem;
+}
+
+@media all and (min-width: 900px) {
+  nav {
+    display: flex;
+  }
 }

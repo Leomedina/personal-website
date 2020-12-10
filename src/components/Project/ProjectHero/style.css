@@ -22,6 +22,11 @@
   justify-content: flex-end;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .p-next img {
   padding-left: 0.5rem;
   max-width: 13%;
