@@ -14,7 +14,7 @@ export const projectInfo = {
 
 export const project1Info = {
   title: "Journey-Pal",
-  description: "Frontend JourneyPal created using React and Redux. The application relies on JourneyPal's API for venue recommendation, database, etc.",
+  description: "Journey-Pal is a web app that helps you plan your next trip. It's built with React and NodeJS and uses Foursquare's Places API as the recommendation engine.",
   image: journeyPalImg,
   github: "https://github.com/Leomedina/JourneyPal",
   live: "https://journey-pal.herokuapp.com/",
@@ -24,10 +24,10 @@ export const project1Info = {
 
 export const project2Info = {
   title: "Open-Source Contributions",
-  description: "Assortment of open-source contributions including a NodeJS Express npm package that helps you manage your postgreSQL database.",
+  description: "An assortment of open-source contributions including a NodeJS Express npm package that helps you manage your postgreSQL database.",
   image: stock,
-  github: "https://github.com/Leomedina/Considered_Collectively",
-  live: "https://considered-collectively.herokuapp.com/",
+  github: "https://github.com/Leomedina/",
+  live: "https://github.com/Leomedina/",
   type: "Backend",
   tech: "Express, Jest"
 };
