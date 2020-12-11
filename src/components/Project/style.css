@@ -2,6 +2,7 @@ article {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  margin: 2.5em 0;
 }
 
 .p-hero {
@@ -10,6 +11,11 @@ article {
 }
 .p-info {
   width: 100%;
+}
+
+#project {
+  border-top: 1px solid black;
+  padding: 2em 0;
 }
 
 @media all and (min-width: 900px) {

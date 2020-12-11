@@ -12,9 +12,9 @@ function Nav() {
           target="_blank"
           rel="noopener noreferrer"  >CONNECT</a>
         </li>
-        <li><a className="link" href="#project-2"> Open-Source Contributions</a></li>
-        <li><a className="link" href="#project-1"> Considered Collectively</a></li>
-        <li><a className="link" href="#project"> Journey-Pal</a></li>
+        <li><a className="link" href="#project"> Considered Collectively</a></li>
+        <li><a className="link" href="#project-1"> Journey-Pal</a></li>
+        <li><a className="link" href="#project-2"> Open-Source</a></li>
       </ul>
     </nav>
   );

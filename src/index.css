@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  margin: 5rem 1rem 0 1rem;
+  margin: 5em 72px 0 72px;
 }
 
 a {
@@ -25,8 +25,7 @@ ul {
 /* Main Layout */
 main {
   display: grid;
-  row-gap: 3.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;
   grid-template-rows: 0.1fr 0.05fr repeat(3, 1.5fr) 0.2fr;
   grid-template-areas:
     "hero"
@@ -64,23 +63,16 @@ footer {
 
 @media all and (min-width: 900px) {
   main {
-    row-gap: 5.5rem;
-    grid-template-rows: 0.8fr 0.1fr repeat(3, 1.3fr) 0.2fr;
+    grid-template-rows: 0.1fr repeat(3, 2.3fr) 0.2fr;
     grid-template-areas:
-      "hero hero nav"
-      "line-break line-break line-break"
-      "project project project"
-      "project-1 project-1 project-1"
-      "project-2 project-2 project-2"
-      "footer footer footer";
+      "hero hero hero nav"
+      "project project project project"
+      "project-1 project-1 project-1 project-1"
+      "project-2 project-2 project-2 project-2"
+      "footer footer footer footer";
   }
 
   body {
-    margin: 7rem 5.5rem 0 5.5rem;
-  }
-
-  .linebreak {
-    align-self: center;
-    grid-area: line-break;
+    margin: 6rem 5rem 0 5rem;
   }
 }

@@ -1,5 +1,5 @@
 nav {
-  font-size: 1.2rem;
+  font-size: 1.25em;
   display: flex;
   flex-flow: column nowrap;
   text-align: start;
@@ -16,7 +16,7 @@ nav ul .link {
 
 nav .connect {
   font-weight: 800;
-  font-size: 0.8rem;
+  font-size: 0.7em;
 }
 
 nav .connect:hover {

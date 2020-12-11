@@ -5,9 +5,9 @@ h1 {
   font-weight: normal;
 }
 
-
 @media all and (min-width: 900px) {
   h1{
-    font-size: 4.3rem;
+    font-size: 3.8em;
+    line-height: 96%;
   }
 }
