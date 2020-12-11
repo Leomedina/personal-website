@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  max-block-size: 1920px;
   margin: 5em 72px 0 72px;
 }
 
@@ -63,6 +64,7 @@ footer {
 
 @media all and (min-width: 900px) {
   main {
+    grid-template-columns: repeat(auto-fit, 480px);
     grid-template-rows: 0.1fr repeat(3, 2.3fr) 0.2fr;
     grid-template-areas:
       "hero hero hero nav"
